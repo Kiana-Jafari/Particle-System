@@ -8,8 +8,8 @@ Welcome! This mini-project aims to build a dynamic particle system using p5.js, 
 - _Smooth Motion & Lifespan Control_ – Each particle moves independently, fades over time, and is replaced efficiently.
 - _Optimized Performance_ – Old particles are removed, and new ones are spawned dynamically to maintain a stable frame rate.
 
-**Video Sample**
+**Video Sample:**
 
-<img src='https://github.com/Kiana-Jafari/Particle-System/blob/main/ParticleSystem.gif' width='300'></img>
+<img src='https://github.com/Kiana-Jafari/Particle-System/blob/main/ParticleSystem.gif' width='350'></img>
 
 Feel free to explore the code on your own!
