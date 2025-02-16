@@ -10,6 +10,6 @@ Welcome! This mini-project aims to build a dynamic particle system using p5.js, 
 
 **Video Sample**
 
-<img src='https://github.com/Kiana-Jafari/Particle-System/blob/main/ParticleSystem.gif' width='200'>Particle System</img>
+<img src='https://github.com/Kiana-Jafari/Particle-System/blob/main/ParticleSystem.gif' width='300'></img>
 
 Feel free to explore the code on your own!
