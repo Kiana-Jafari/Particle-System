@@ -8,9 +8,9 @@ function Particle(x, y, xSpeed, ySpeed, size, color)
 	this.color = color;
 	this.age = 0;
 
-	this.drawParticle = function ()
+	this.drawParticle = function()
 	{
-		fill(random(0, this.color), random(0, this.color), random(0, this.color), 100);
+		fill(random(0, this.color), random(0, this.color), random(0, this.color));
 		ellipse(this.x, this.y, this.size);
 	}
 
@@ -33,7 +33,7 @@ function Emitter(x, y, xSpeed, ySpeed, size, color)
 
 	this.particles = [];
 
-	this.addParticle = function()
+	this.addParticle = function ()
 	{
 		const p = new Particle(
 			random(this.x - 10, this.x + 10), 
@@ -104,5 +104,4 @@ function draw()
 {
 	background(10);
 	emit.updateParticles();
-
 }
